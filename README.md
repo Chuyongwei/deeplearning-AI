@@ -7,3 +7,7 @@
 
 
 # [pytorch笔记]( )
+
+tensorboard --logdir=logs
+
+tensorboard --logdir=logs --port=6007
