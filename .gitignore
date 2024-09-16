@@ -106,6 +106,7 @@ venv.bak/
 
 hymenoptera_data/
 logs_*/
+logs/
 *.png
 
 data/
