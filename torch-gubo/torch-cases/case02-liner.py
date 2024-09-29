@@ -1,4 +1,3 @@
-import numpy as np
 import torch
 from sklearn.datasets import make_regression
 import matplotlib.pyplot as plt
@@ -112,6 +111,8 @@ def train():
 
     plt.plot(x,y1,label = "train")
     plt.plot(x,y2,label = "gg")
+    plt.legend()
+    plt.show()
     plt.grid()
     plt.title("the grid of loss")
     plt.show()

@@ -1,7 +1,6 @@
 import torch
 from sklearn.datasets import make_regression
 import matplotlib.pyplot as plt
-import matplotlib
 import random
 
 # matplotlib.use("TkAgg")
