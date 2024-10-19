@@ -10,7 +10,7 @@
 + testCases：提供了一些测试示例来评估函数的正确性，参见下载的资料或者在底部查看它的代码。
 + planar_utils ：提供了在这个任务中使用的各种有用的功能，参见下载的资料或者在底部查看它的代码。
 
-# Course1
+# Course1 神经网络
 
 ## week1
 
@@ -60,7 +60,7 @@
    
    4.3 结合线性部分与激活函数的反向传播公式
    
-# course2
+# course2 深度学习
 
 ## Week1
 
@@ -97,7 +97,7 @@
 4. 使用 A[1]除以 `keep_prob`。这样做的话我们通过缩放就在计算成本的时候仍然具有相同的期望值，这叫做反向dropout。
 
 
-# [pytorch笔记]( )
+# [pytorch笔记](https://www.bilibili.com/video/BV1hE411t7RN/)
 
 ## tensorboared
 
@@ -190,7 +190,7 @@ torch.save(tudui, "tudui_method1.pth")
 ```
 
 
-# pytorch实战型策略
+# [pytorch实战型策略](https://www.bilibili.com/video/BV11r421F7VF/)
 
 ## 手写代码
 
@@ -330,3 +330,11 @@ def train():
 ```
 
 
+
+### softmax
+
+> Softmax函数，或称归一化指数函数，是`逻辑斯谛函数`的一种推广。它能将一个含任意实数的K维向量 ${\mathbf {z} }$ “压缩”到另一个K维实向量${\displaystyle \sigma (\mathbf {z} )} $中，使得每一个元素的范围都在(0,1)之间，并且所有元素的和为1(也可视为一个 (k-1)维的hyperplane或subspace)。
+
+$$
+Softmax = \frac{\exp(x_{i})}{\sum^{n}_{i}\exp(x_{i})}
+$$

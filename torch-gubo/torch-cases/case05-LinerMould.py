@@ -39,7 +39,7 @@ def train():
 
         for train_x,train_y in dataloader:
 
-            # 将一个batch的训练数据送如模型
+            # 将一个batch的训练数据送入模型
 
             y_pred = model(train_x.type(torch.float32))
 
